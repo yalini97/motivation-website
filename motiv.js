@@ -1,13 +1,4 @@
-var logo = document.querySelector("#heartLogo");
-console.log(logo.innerHTML);
+var logo = document.querySelector("#logo");
 
-
-var navItems = document.querySelectorAll("#mainNav a");
-for(i=0;i<navItems.length;i++){
-    console.log(navItems[i].innerHTML);
-    navItems[i].addEventListener("click",pageChanged);
-}
-
-function pageChanged(){
-    logo.innerHTML+=this.innerHTML;
-}
+const tl= new TimeLineMax();
+tl.fromTo(logo,5,{height:"0%"},{height:"100%"})

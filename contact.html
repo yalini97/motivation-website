@@ -3,11 +3,11 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8"/>
         <link href="style.css" rel= "stylesheet" type = "text/css">
-        <title>About Us</title>
+        <title>Contact Us</title>
     </head>
     <body>
-        <header class = "header other">
-        <div class = "row about">
+        <header class = "header">
+        <div class = "row contact">
             <logo id = "logo">❤</logo>
             <!-- <div id="logo"><img src="cheetahlogo.jpg" width="200px" height="150px"/></div>-->
             <ul id = "mainNav">
@@ -19,5 +19,25 @@
                 <li><a href = "faq.html">FAQs</a></li>
             </ul>
         </div>
+        <div class="contactContent">
+            <h1>Send us a message</h1>
+            <h2>We want to hear your story</h2>
+
+            <form class="contactForm" id="form" method="post" action="contacthandler.php">
+                    <input name="name" type="text" class="formControl" placeholder="Jane Smith" required><br>
+                    <input name="email" type="text" class="formControl" placeholder="j.smith@yahoo.co.nz" required><br>
+                    <textarea name="message" type="text" class="formControl message" placeholder="I'm 25 years old, working in a corporate company but don't feel like I'm moving forward enough in life. I'm looking for a mentor to help me become more habitually hardworking, and look after my money better..." row="4" required></textarea><br>
+                    <input type="submit" class="formControl submit" value="Send">
+                </form>
+
+            </div>    
+        </div>
     </header>
-    <div class="faqContent">
+    
+    
+
+    </body>
+    
+    
+    
+</html>

@@ -8,7 +8,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: rgba(0, 0, 0, 0.5)
+    background-image: rgba(0, 0, 0, 0.5);
 }
 
 #mainNav{
@@ -98,24 +98,97 @@ border: 1px solid white;
     max-height: 100px;
 }
 
-#person1photo{
+.pic{
     max-width: 400px;
     max-height: 400px;
-}
-.person1photo{
     float: right;
     margin-left: 50px;
 }
+.credit{
+    float: right;
+    margin-top: 2px;
+    padding-bottom: 20px;
+}
 
-#para{
+.aboutPara{
     float: left;
-    /* margin-left: px; */
+    margin-left: 280px;
+    margin-top: 80px;
     /* margin-right: 400px; */
+    max-width: 600px;
     color: rgb(24, 24, 24);
 }
+#para{
+    padding-top:30px;
+}
+
 .aboutContent{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     grid-template-columns: 70% 30%;
     padding: 20px;
+}
+
+
+
+/* Contact page styling */
+.contactContent{
+    /* TRANSITION NOT WORKING!! */
+    transition: all 4s ease-in; 
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 400px;
+    width:500px;
+    height: 575px;
+    font-family:'Papyrus', sans-serif;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.678);
+}
+
+.contactContent h1{
+    /* position: absolute; */
+    
+    font-size: 45px;
+    margin-left: 60px;
+    margin-top: 35px;
+}
+.contactContent h2{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+form{
+    padding:20px;
+    width: 300px;
+}
+.formControl{
+    height:30px;
+    width: 440px;
+    margin-top: 20px;
+    font-family: 'Papyrus', sans-serif;
+    font-size: 15px;
+    padding:5px;
+
+}
+
+.formControl.message{
+    height:130px;
+    padding-top:10px;
+}
+
+.formControl.submit{
+    float: right;
+    margin-right: 40px;
+    width: 100px;
+    font-size: 20px;
+    height:45px;
+    margin-bottom: 20px;
+    font-family: "Papyrus", sans-serif;
+    font-weight: bold;
+    background-color:rgb(224, 214, 201);
+    color: black;
+}
+.formControl.submit:hover{
+    background-color: rgb(0, 190, 117);
+    color: black;
 }
