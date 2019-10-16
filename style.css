@@ -134,7 +134,7 @@ border: 1px solid white;
 /* Contact page styling */
 .contactContent{
     /* TRANSITION NOT WORKING!! */
-    transition: all 4s ease-in; 
+    transition: all 2s ease-in; 
     position: absolute;
     margin-top: 100px;
     margin-left: 400px;
